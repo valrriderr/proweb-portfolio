@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #FFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+nav{
+    background: #FFF;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+nav .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__link {
+    color: #3A3838;
+    margin: 10px 0 10px 15px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.menu__link:hover {
+    color: #EF4423;
+    
+}
+
+header .container__content {
+    width: 100%;
+}
+
+.main{
+    margin-top: 39px;
+}
+
+.main__feed {
+   width: 100%;
+   display: flex;
+   font-family: 'Roboto', sans-serif;
+}
+
+.main__feed img{
+    width: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+.main__card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__card h3 {
+    font-size: 19px;
+    color: #FFF;
+    margin: 8px 15px;
+
+}
+
+.main__card p {
+    font-size: 16px;
+    color: #FFF;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main__card h3{
+    font-size: 19px;
+    color: #FFF;
+    margin: 15px 9px 15px 15px;
+}
+
+.main__card p{
+    font-size: 16px;
+    color: #FFF;
+    margin: 9px 4px 15px 15px;
+}
+
+.main__card_first {
+    background: #B71C1C;
+}
+
+.main__card_second{
+    background: #6A1B9A;
+}
+
+.main__card_third{
+    background: #303F9F;
+}
+
+.main__card_fourth{
+    background: #00695C;
+}
+
+.news__mainnews h2{
+    margin: 40px auto;
+    color: #3A3838;
+    display: flex;
+    justify-content: center;
+}
+
+.news__huawei{
+    background: #EDEDED;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.news__section{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    display: flex;
+}
+
+
+.news__photo img {
+    max-width: 531px;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.news__text h2{
+    color: #3A3838;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.news__text p{
+    color: #686868;
+    font-size: 18px;
+    margin-bottom: 31px;
+}
+
+
+footer nav {
+    background: #3A3838;
+    margin: 0;
+    padding-top: 28px;
+    padding-bottom: 29px;
+}
+
+footer .menu__link{
+    color: #FFF;
+}
+
